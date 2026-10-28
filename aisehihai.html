@@ -1,76 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>College Timetable</title>
+<title>Timetable</title>
 </head>
 <body>
-<h2 align="center">College Timetable - CSE Department</h2>
-<TABLE border="1">
-    <tr>
-        <th>Day/Time</th>
-        <th height="35" width="55">9:00-10:00</th>
-        <th height="35" width="55">10:00-11:00</th>
-        <th height="35" width="55">11:00-12:00</th>
-        <th height="35" width="55">12:00-1:00</th>
-        <th height="35" width="55">1:00-2:00</th>
-        <th height="35" width="55">2:00-3:00</th>
-        <th height="35" width="55">3:00-4:00</th>
-    </tr>
 
-    <!-- Monday -->
-    <tr>
-        <th height="35" width="55">Monday</th>
-        <td height="35" width="55" align="center">Mathematics</td>
-        <td height="35" width="55" align="center">English</td>
-        <td height="35" width="55" align="center">Physics</td>
-        <td height="35" width="55" align="center">Break</td>
-        <td colspan="2" height="35" width="55" align="center">Computer Lab</td>
-        <td height="35" width="55" align="center">Sports</td>
-    </tr>
+<h2>Weekly Timetable</h2>
 
-    <!-- Tuesday -->
-    <tr>
-        <th height="35" width="55">Tuesday</th>
-        <td colspan="3" height="35" width="55" align="center">C Programming</td>
-        <td height="35" width="55" align="center">Break</td>
-        <td colspan="2" height="35" width="55" align="center">Electronics Lab</td>
-        <td height="35" width="55" align="center">Library</td>
-    </tr>
+<table border="1" cellpadding="8" cellspacing="0" align="center">
 
-    <!-- Wednesday -->
-    <tr>
-        <th height="35" width="55">Wednesday</th>
-        <td height="35" width="55" align="center">Mathematics</td>
-        <td height="35" width="55" align="center">English</td>
-        <td height="35" width="55" align="center">Break</td>
-        <td height="35" width="55" align="center">Computer Networks</td>
-        <td colspan="3" height="35" width="55" align="center">
-            Lab Details<br>
-            Batch A: DBMS Lab<br>
-            Batch B: OS Lab
-        </td>
-    </tr>
+ 
+  <tr>
+    <th rowspan="2">Time / Day</th>
+    <th>I</th>
+    <th>II</th>
+    <th>III</th>
+    <th>IV</th>
+    <th>V</th>
+    <th>VI</th>
+    <th>VII</th>
+    <th>VIII</th>
+    <th>IX</th>
+  </tr>
 
-    <!-- Thursday -->
-    <tr>
-        <th height="35" width="55">Thursday</th>
-        <td height="35" width="55" align="center">Workshop</td>
-        <td height="35" width="55" align="center">Physics</td>
-        <td height="35" width="55" align="center">Break</td>
-        <td height="35" width="55" align="center">Mathematics</td>
-        <td height="35" width="55" align="center">English</td>
-        <td colspan="2" height="35" width="55" align="center">Seminar</td>
-    </tr>
+  
+  <tr>
+    
+    <td>08:50-09:40</td>
+    <td>09:40-10:30</td>
+    <td>10:40-11:30</td>
+    <td>11:30-12:20</td>
+    <td>12:20-1:10</td>
+    <td>01:10-02:00</td>
+    <td>02:00-02:50</td>
+    <td>02:50-03:40</td>
+    <td>03:40-04:30</td>
+  </tr>
 
-    <!-- Friday -->
-    <tr>
-        <th height="35" width="55">Friday</th>
-        <td height="35" width="55" align="center">Computer Networks</td>
-        <td height="35" width="55" align="center">English</td>
-        <td height="35" width="55" align="center">Physics</td>
-        <td height="35" width="55" align="center">Break</td>
-        <td colspan="3" height="35" width="55" align="center">Project Work</td>
-    </tr>
-</TABLE>
+ 
+  <tr>
+    <th>Monday</th>
+    <td>25EL101(PRM)RJ-202</td>
+    <td>25AS102(SCH)RJ-202</td>
+    <td>25AI101(RS)RJ-202</td>
+    <td>25AS101(IM)RJ-202</td>
+    <td rowspan="5" align="center"><b>LUNCH</b></td>
+    <td>25AS103(TR)BH-309</td>
+    <td>25AS102(SCH)BH-309</td>
+    <td colspan="2" align="center">
+      25CS151(ABS)Group-1, KCLG08
+      <hr>
+      25CS151(RLS)Group-2, KCLG09
+    </td>
+  </tr>
+
+  <!-- Tuesday -->
+  <tr>
+    <th>Tuesday</th>
+    <td>25AS101(IM)RJ-202</td>
+    <td>25CS101(ABS)RJ-202</td>
+    <td>25AS102(SCH)RJ-202</td>
+    <td>25EL101(PRM)RJ-202</td>
+    <td colspan="2" align="center">25AS151(IM, RSA)KC Block III Floor (KC-310)</td>
+    <td>25AS103(TR)RJ-205</td>
+    <td>25VA101(SYS)RJ-205</td>
+  </tr>
+
+  <!-- Wednesday -->
+  <tr>
+    <th>Wednesday</th>
+    <td colspan="2" align="center">
+      25VA151(SYS)Group-1, KCLG-08
+      <hr>
+      25VA151(SPR)Group-2, KCLG-09
+    </td>
+    <td>25CS101(ABS)RJ-201</td>
+    <td>25EL101(PRM)RJ-201</td>
+    <td>25AS101(IM)RJ-201</td>
+    <td>25AS102(SCH)RJ-201</td>
+    <td>Mentor-Mentee(IM, ABS)RJ-201</td>
+    <td></td>
+  </tr>
+
+  <!-- Thursday -->
+  <tr>
+    <th>Thursday</th>
+    <td>25AS102(SCH)RJ303</td>
+    <td>25AS101(IM)RJ303</td>
+    <td colspan="2" align="center">25EL151(PRM, SG)RJ-Basement</td>
+    <td>25AI101(RS)RJ-202</td>
+    <td>25CS101(ABS)RJ-202</td>
+    <td>25EL101(PRM)RJ-202</td>
+    <td>25AS103(TR)RJ202</td>
+  </tr>
+
+  <!-- Friday -->
+  <tr>
+    <th>Friday</th>
+    <td>25AI101(RS)RJ-202</td>
+    <td>25AS102(SCH)RJ-202</td>
+    <td>25EL101(PRM)RJ-202</td>
+    <td>25CS101(ABS)RJ-202</td>
+    <td colspan="2" align="center">25ME152(DNJ, ASX)RJ Block I Floor (RJ-109)</td>
+    <td>25AS102(SCH, HG)RJ-202</td>
+    <td>25AS101(IM)RJ-202</td>
+  </tr>
+
+</table>
+
 </body>
 </html>
+       
